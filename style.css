@@ -1,0 +1,54 @@
+body{
+  margin-top:70px;
+  margin-left: 0px;
+  margin-right: 0px;
+  /* background-image:url("Photos/frontPage.jpg"); */
+  background-color:#ffffff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Navigation bar */
+header{
+  margin:0;
+  top:0px;
+  left:0px;
+  position:fixed;
+  background:rgba(0,0,0,0.2);
+  width:100%;
+  padding-bottom:15px;
+}
+
+#navBar{
+  height:100%;
+  /*padding:5px;*/
+}
+
+#navList{
+  list-style-type:none;
+  background:black;
+}
+
+.navItem{
+  text-align:center;
+  width:100px;
+  padding:5px;
+  border: 1px solid black;
+  color:black;
+  float:right;
+  height:100%;
+  background:rgba(0,0,0,0.2);
+
+}
+
+.navItem:hover{
+  color:white;
+  cursor:pointer;
+}
+
+#welcome{
+  width:100%;
+  background-color: rgb(237, 237, 237);
+}

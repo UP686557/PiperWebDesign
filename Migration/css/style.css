@@ -52,27 +52,66 @@ visibility: visible;
 }
 
 /* ============================= header ====================== */
-#top{position: relative;}
-
-.front #top{background-image: url(http://placehold.it/1920x1050); background-size: cover; background-attachment: scroll; background-repeat: repeat-y; background-position: center center;}
-.support-fixed.front #top{background-attachment: fixed;}
-
-.not-front #top{background-image: url(http://placehold.it/1920x1050); background-size: cover; background-attachment: scroll; background-repeat: repeat-y; background-position: center top;}
-.support-fixed.not-front #top{background-attachment: fixed;}
-
-#top2{z-index: 30; background: none;
-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out;
+#top{
+  position: relative;
 }
 
-.is-sticky #top2{background: #000; background: rgba(0, 0, 0, 0.6);}
-
-.top2{padding-top: 40px; padding-bottom: 1px;
-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out;
+.front #top{
+  background-image: url(../images/carousel/laptop-code-dark.png);
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: repeat-y;
+  background-position: center center;
 }
 
-.is-sticky .top2{padding-top: 27px; padding-bottom: 14px;}
+.support-fixed.front #top{
+  background-attachment: fixed;
+}
 
-header{float: left; position: relative; z-index: 31;}
+.not-front #top{
+  background-image: url(../images/carousel/laptop-code-dark.png);
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: repeat-y;
+  background-position: center top;
+}
+
+.support-fixed.not-front #top{
+  background-attachment: fixed;
+}
+
+#top2{
+  z-index: 30; background: none;
+  transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+.is-sticky #top2{
+  background: #000;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.top2{
+  padding-top: 40px;
+  padding-bottom: 1px;
+  transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+.is-sticky .top2{
+  padding-top: 27px;
+  padding-bottom: 14px;
+}
+
+header{
+  float: left;
+  position: relative;
+  z-index: 31;
+}
 
 
 /* ============================= content ====================== */
@@ -884,9 +923,4 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 
   .front-slider{margin-top: -30px;}
 
-}
-
-.nav-logo{
-  width:150px;
-  height:auto;
 }

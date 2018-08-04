@@ -68,6 +68,7 @@ visibility: visible;
   background-attachment: fixed;
 }
 
+
 .not-front #top{
   background-image: url(../images/carousel/laptop-code-dark.png);
   background-size: cover;
@@ -381,7 +382,16 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 .services2 .ic1 i{color: #35373e; font-size: 40px; line-height: 1;}
 .services2 .txt1{font-family: 'Montserrat'; font-weight: 700; font-size: 13px; color: #35373e; text-transform: uppercase; letter-spacing: 2px; padding-bottom: 25px; margin-bottom: 25px; background: url(../images/kand3.png) left bottom no-repeat;}
 
-#department{position: relative; background: #fff; padding: 70px 0 90px;}
+#department{
+  position: relative;
+  /* background: #fff;  */
+  padding: 70px 0 90px;
+  background-image: url(../images/london-skyline.png);
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: repeat-y;
+  background-position: center top;
+}
 
 .department1{position: relative; margin-bottom: 30px; text-align: center;}
 .department1 figure{position: relative; display: inline-block; margin-bottom: 25px;}
@@ -391,7 +401,7 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 
 #what_wrapper{position: relative; background: #f7f8f9;}
 #what{position: relative; display: table; width: 100%;}
-#what .left_box_wrapper{position: relative; overflow: hidden; display: table-cell; width: 50%; background: url(http://placehold.it/959x741) center center no-repeat; background-size: cover; vertical-align: middle;}
+#what .left_box_wrapper{position: relative; overflow: hidden; display: table-cell; width: 50%; background: url(../images/active-activity-beach.png) center center no-repeat; background-size: cover; vertical-align: middle;}
 #what .left_box{padding: 110px;}
 #what .left_box_inner{}
 #what .right_box_wrapper{position: relative; overflow: hidden; display: table-cell; width: 50%; vertical-align: middle;}

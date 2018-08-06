@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /post.html
+Disallow: /post-full
+Disallow: /contact.php
+Disallow: /contact_config.php
+Disallow: /blog-right.html
+Disallow: /blog.html
+Disallow: /sitemap.xml
+Disallow: /google549d34213355911e.html
+Disallow: /BingSiteAuth.xml
+
+Sitemap: http://www.piperwebdesign.com/sitemap.xml
